@@ -23,12 +23,12 @@ public class EGG_EJ13_GUIA6_TEORIA {
         System.out.println("Ingrese cantidad de jugadores de su equipo");
         
         int cantidadJugadores = leer.nextInt();
-        
+        leer.nextLine(); //esta línea se agrega para limpiar el buffer
         String[] equipo = new String[cantidadJugadores];
-        
+
         for (int i = 0; i < cantidadJugadores; i++) {
             
-            System.out.println("Ingrese nombre del jugador " +(i));
+            System.out.println("Ingrese nombre del jugador " +(i+1));
             
             equipo[i] = leer.nextLine();
         }
