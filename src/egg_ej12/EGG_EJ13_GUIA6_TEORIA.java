@@ -5,6 +5,7 @@
  */
 package egg_ej12;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -12,7 +13,7 @@ import java.util.Scanner;
  * @author hecto
  */
 public class EGG_EJ13_GUIA6_TEORIA {
-
+// ESTE EJERCICIO ES EL 13 + EL 14
     /**
      * @param args the command line arguments
      */
@@ -35,11 +36,14 @@ public class EGG_EJ13_GUIA6_TEORIA {
         
         System.out.println("");
         System.out.println("");
-        
+        System.out.println("Listado de nombres ingresados:");
         for (int i = 0; i < cantidadJugadores; i++) {
                     System.out.println(equipo[i]);
         }
-
+        System.out.println("");
+        System.out.println("El arreglo completo queda así:");            
+        System.out.println(Arrays.toString(equipo));
+        System.out.println("");
     }
     
 }
